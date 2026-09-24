@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="glyphGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f1f5f9" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#1e1b4b" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Rounded App Icon Background -->
+  <rect x="24" y="24" width="464" height="464" rx="110" fill="url(#bgGrad)" filter="url(#shadow)" />
+
+  <!-- Inner Soft Glow -->
+  <rect x="32" y="32" width="448" height="448" rx="102" fill="none" stroke="#ffffff" stroke-opacity="0.25" stroke-width="6" />
+
+  <!-- Dictionary Book / Cards Symbol -->
+  <g transform="translate(256, 256)">
+    <!-- Behind Card / Page -->
+    <rect x="-140" y="-130" width="280" height="250" rx="32" fill="#ffffff" fill-opacity="0.15" transform="rotate(-6)" />
+    
+    <!-- Front Glass Card -->
+    <rect x="-140" y="-120" width="280" height="250" rx="32" fill="#ffffff" fill-opacity="0.25" stroke="#ffffff" stroke-width="3" />
+
+    <!-- English 'A' Glyph -->
+    <text x="-55" y="45" font-family="'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="110" font-weight="800" fill="#ffffff" text-anchor="middle">A</text>
+
+    <!-- Swap Exchange Arrow -->
+    <g transform="translate(0, 0)">
+      <path d="M-16 -30 L16 -30 M8 -40 L18 -30 L8 -20" stroke="#facc15" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M16 10 L-16 10 M-8 0 L-18 10 L-8 20" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <!-- Thai 'ก' Glyph -->
+    <text x="60" y="45" font-family="'Prompt', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="105" font-weight="800" fill="#ffffff" text-anchor="middle">ก</text>
+  </g>
+</svg>
