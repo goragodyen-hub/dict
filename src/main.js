@@ -600,8 +600,8 @@ class MyDictApp {
       <!-- PWA Install Banner -->
       <div id="pwa-install-banner" class="pwa-install-banner" style="display: ${this.deferredPrompt ? 'flex' : 'none'}">
         <div class="pwa-info">
-          <div class="brand-icon" style="width: 32px; height: 32px;">
-            <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          <div class="brand-icon" style="width: 34px; height: 34px;">
+            <img src="/logo.png" alt="My Dict" />
           </div>
           <div class="pwa-info-text">
             <strong>ติดตั้ง My Dict บนหน้าจอ</strong>
@@ -618,7 +618,7 @@ class MyDictApp {
       <header class="app-header">
         <a href="#" class="brand" id="brand-link">
           <div class="brand-icon">
-            <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            <img src="/logo.png" alt="My Dict Logo" />
           </div>
           <div class="brand-text">
             <h1>My Dict <span class="brand-badge">PWA</span></h1>

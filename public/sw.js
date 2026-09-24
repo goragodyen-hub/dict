@@ -1,9 +1,13 @@
-const CACHE_NAME = 'mydict-pwa-v1';
+const CACHE_NAME = 'mydict-pwa-v2';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
   '/manifest.webmanifest',
-  '/favicon.svg',
+  '/logo.png',
+  '/icon-192.png',
+  '/icon-512.png',
+  '/apple-touch-icon.png',
+  '/favicon.png',
   '/icon.svg'
 ];
 
