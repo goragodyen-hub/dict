@@ -2,7 +2,7 @@
   "name": "My Dict - พจนานุกรม & แปลภาษาไทย-อังกฤษ",
   "short_name": "My Dict",
   "description": "พจนานุกรมและแปลภาษา ไทย-อังกฤษ / อังกฤษ-ไทย ใช้งานง่าย ออกเสียงได้ บันทึกคำศัพท์ และใช้งานได้เสมือนแอปจริง",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#0f172a",
@@ -12,31 +12,31 @@
   "categories": ["education", "books", "productivity", "utilities"],
   "icons": [
     {
-      "src": "/icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icon-192.png",
+      "src": "./icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/logo.png",
+      "src": "./logo.png",
       "sizes": "447x447",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icon.svg",
+      "src": "./icon.svg",
       "sizes": "192x192 512x512",
       "type": "image/svg+xml",
       "purpose": "any maskable"
     },
     {
-      "src": "/favicon.png",
+      "src": "./favicon.png",
       "sizes": "64x64 32x32 16x16",
       "type": "image/png",
       "purpose": "any"
@@ -45,17 +45,17 @@
   "shortcuts": [
     {
       "name": "แปลภาษา (Translate)",
-      "url": "/?tab=translate",
+      "url": "./?tab=translate",
       "description": "เปิดหน้าแปลคำศัพท์ทันที"
     },
     {
       "name": "คำศัพท์ที่บันทึก (Saved)",
-      "url": "/?tab=saved",
+      "url": "./?tab=saved",
       "description": "ดูรายการคำศัพท์โปรด"
     },
     {
       "name": "หมวดประโยคใช้บ่อย (Phrases)",
-      "url": "/?tab=phrases",
+      "url": "./?tab=phrases",
       "description": "ประโยคภาษาอังกฤษที่ใช้บ่อยในชีวิตประจำวัน"
     }
   ]

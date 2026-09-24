@@ -133,7 +133,7 @@ class MyDictApp {
     // Service Worker Registration
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js').catch((err) => {
+        navigator.serviceWorker.register('./sw.js').catch((err) => {
           console.warn('SW registration failed:', err);
         });
       });
@@ -601,7 +601,7 @@ class MyDictApp {
       <div id="pwa-install-banner" class="pwa-install-banner" style="display: ${this.deferredPrompt ? 'flex' : 'none'}">
         <div class="pwa-info">
           <div class="brand-icon" style="width: 34px; height: 34px;">
-            <img src="/logo.png" alt="My Dict" />
+            <img src="./logo.png" alt="My Dict" />
           </div>
           <div class="pwa-info-text">
             <strong>ติดตั้ง My Dict บนหน้าจอ</strong>
@@ -618,7 +618,7 @@ class MyDictApp {
       <header class="app-header">
         <a href="#" class="brand" id="brand-link">
           <div class="brand-icon">
-            <img src="/logo.png" alt="My Dict Logo" />
+            <img src="./logo.png" alt="My Dict Logo" />
           </div>
           <div class="brand-text">
             <h1>My Dict <span class="brand-badge">PWA</span></h1>
